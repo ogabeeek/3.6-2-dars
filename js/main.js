@@ -14,7 +14,7 @@ elForm.addEventListener( "submit" , function (e) {
 
     const elInputVal= elInput.value;
 
-    if(elInputVal>12){
+    if(elInputVal>10){
         elTitle.style="color:yellow"
         elBody.style="background-color:red"
     }else{
